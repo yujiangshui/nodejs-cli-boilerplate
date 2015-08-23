@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-cli-boilerplate",
+  "version": "0.0.1",
+  "description": "Node command line tool boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "yourcli": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujiangshui/nodejs-cli-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs-cli",
+    "cli-boilerplate"
+  ],
+  "author": "yujiangshui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yujiangshui/nodejs-cli-boilerplate/issues"
+  },
+  "homepage": "https://github.com/yujiangshui/nodejs-cli-boilerplate#readme",
+  "dependencies": {
+    "commander": "~2.8.1"
+  }
+}
